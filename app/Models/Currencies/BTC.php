@@ -10,13 +10,11 @@ class BTC implements CurrencyBRLInterface
 
     public function convertFromBRL(float $amount): float
     {
-        $usd = new USD();
-        return $usd->convertFromBRL($amount / self::MULTIPLIER);
+        return (new USD())->convertFromBRL($amount / self::MULTIPLIER);
     }
 
     public function convertToBRL(float $amount): float
     {
-        $usd = new USD();
-        return $usd->convertToBRL($amount * self::MULTIPLIER);
+        return (new USD())->convertToBRL($amount * self::MULTIPLIER);
     }
 }

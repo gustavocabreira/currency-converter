@@ -8,11 +8,11 @@ class USD implements CurrencyBRLInterface
 {
     public function convertFromBRL(float $amount): float
     {
-        return round($amount / 5.65, 2);
+        return $amount / 5.65;
     }
 
     public function convertToBRL(float $amount): float
     {
-        return round($amount * 5.65, 2);
+        return $amount * 5.65;
     }
 }
