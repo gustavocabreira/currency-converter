@@ -62,7 +62,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\Models\User::class,
+            'model' => App\Models\Currencies\Currencies\Currencies\Currencies\Currencies\Currencies\User::class,
         ],
 
         // 'users' => [
