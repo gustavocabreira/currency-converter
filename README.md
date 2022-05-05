@@ -18,13 +18,3 @@ O código também deve realizar a conversão indireta de moedas, por exemplo:
 - `5 BTC → ARS = 4318214.28`
 
 ---
-
-Aqui vão algumas informações relevantes:
-
-- Use sua linguagem preferida.
-- Testes unitários são desejáveis.
-- Coloque o seu código em um repositório **privado** no GitHub, compartilhe com o usuário `@navedevs` e nos avise por e-mail. **Não se esqueça de documentar o passo a passo para rodar o seu projeto.**
-
-Boa sorte!
-
-**;)**
